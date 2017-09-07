@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Extras</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/extras.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="title">
+			<img src="images/extras2.png" class="shop_txt" />
+			<img src="images/s_extras.png" class="sm_banner" />
+		</div>
+		<nav>
+			<hr>
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+
+			<a href="index.html">Home</a>
+			&emsp;&emsp;&emsp;&ensp;
+			<a href="ShopOils.html">Shop Oils</a>
+			&emsp;&emsp;&emsp;&ensp;
+			<a href="Extras.html">Extras</a>
+			&emsp;&emsp;&emsp;&ensp;
+			<a href="About.html">About Us</a>
+			&emsp;&emsp;&emsp;&ensp;
+			<a href="contact.html">Contact Us</a>
+
+			<div class="menu" style="list-style: none;">
+			    <a href="index.html">Home</a>
+			    <a href="ShopOils.html">Shop Oils</a>
+			    <a href="Extras.html">Extras</a>
+			    <a href="About.html">About Us</a>
+			    <a href="contact.html">Contact Us</a>
+			</div>
+			<hr>
+		</nav>
+	</div><!--col-lg-12-->
+
+		<div class="row">
+
+			<div class="col-lg-4 col-md-6 col-sm-6 items">
+				<img src="images/NatureScents_lemon.png" class="freshner" width="300" height="300" />
+				
+				<div class="d_freshner">
+					<h2>Air Freshner</h2>
+					<div class="info">
+						Price: $6.50
+					</div>
+					<div class="order">
+						<label for="txt-q-freshner">Quantity desired:</label>
+						<input type="number" min="0" id="txt-q-freshner" size="1" placeholder="0">
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 col-sm-6 items">
+				<img src="images/ocean_beads.png" class="beads" width="250" height="300" />
+				
+				<div class="d_beads">
+					<h2>Bath Beads</h2>
+					<div class="info">
+						Price: $2.75/pack
+					</div>
+					<div class="order">
+						<label for="txt-q-beads">Quantity desired:</label>
+						<input type="number" min="0" id="txt-q-beads" size="1" placeholder="0">
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 col-sm-6 items">
+				<img src="images/natural_energy_lemonade.png" class="energy" width="232" height="300" />
+				
+				<div class="d_energy">
+					<h2>Energy Powder</h2>
+					<div class="info">
+						Price: $1/packet
+					</div>
+					<div class="order">
+						<label for="txt-q-energy">Quantity desired:</label>
+						<input type="number" min="0" id="txt-q-energy" size="1" placeholder="0">
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 col-sm-6 items">
+				<img src="images/incense.png" class="incense" width="350" height="200" />
+				
+				<div class="d_incense">
+					<h2>Incense</h2>
+					<div class="info">
+						Price: $3.50/pack
+					</div>
+					<div class="order">
+						<label for="txt-q-incense">Quantity desired:</label>
+						<input type="number" min="0" id="txt-q-incense" size="1" placeholder="0">
+					</div>
+				</div>
+			</div>
+
+		
+			<div class="col-lg-4 col-md-6 col-sm-6 items">
+				<img src="images/epsom_salt.png" class="salt" width="300" height="235" />
+				
+				<div class="d_salt">
+					<h2>Epsom Salt</h2>
+					<div class="info">
+						Price: $1/12oz.
+					</div>
+					<div class="order">
+						<label for="txt-q-salt">Quantity desired:</label>
+						<input type="number" min="0" id="txt-q-salt" size="1" placeholder="0">
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 col-sm-6 items">
+				<img src="images/now-diffuser.png" class="diffuser" width="140" height="223" />
+				
+				<div class="d_diffuser">
+					<h2>Oil Diffuser</h2>
+					<div class="info">
+						Price: $21 (Wooden: $26)
+					</div>
+					<div class="order">
+						<label for="txt-q-diffuser">Quantity desired:</label>
+						<input type="number" min="0" id="txt-q-diffuser" size="1" placeholder="0">
+						&nbsp;
+						<label for="txt-q-wooden">Wooden:</label>
+						<input type="number" min="0" id="txt-q-wooden" size="1" placeholder="0">
+					</div>
+				</div>
+			</div>
+
+		</div><!--row-->
+
+
+	<div id="summary">
+			<hr>
+			<h1>Estimate Order</h1>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="State">
+					<label>State (required)</label>
+					<select id="s-state" required>
+						<option value="">-select-</option>
+						<option value="NY">New York</option>
+						<option value="NJ">New Jersey</option>
+						<option value="CT">Connecticut</option>
+						<option value="PA">Pennsylvania</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="shipping">
+					<label for="r-method-pickup">Shipping and Handling:</label>	
+					<form id="shipping">
+						<input type="radio" value="pickup" name="r_method" checked> Pickup (free)<br>
+						<input type="radio" value="ups" name="r_method"> US Mail ($2/item)<br>
+						<input type="radio" value="usps" name="r_method"> USPS ($3/item)
+					</form> 
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 special">
+				
+					<label for="special-gift">Special:</label>
+					<br>
+					<input type="checkbox" value="gift" name="special-gift" id="special-gift">
+					<label for="special-gift">This is a gift (include a card)</label>
+					<br>
+					<input type="checkbox" value="gift" name="special-gift" id="mailing-list">
+					<label for="special-gift">Sign up for the CureOil mailing list</label>
+					<br>
+					<input type="checkbox" value="gift" name="special-gift" id="recipies">
+					<label for="special-gift">Include CureOil recipies (free!)</label>
+				
+			</div>
+
+
+			<div class="col-lg-8 col-md-8">
+				<div class="notes">
+					<label for="notes">Do you like our services? Comment below.</label>
+					<br>
+					<textarea name="txt-notes" id="txt-notes" rows="2" placeholder="This does not affect any estimate"></textarea>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-xs-12 sum">
+				<div class="total">
+					<label for="total">Click for estimate (tax included):</label>
+					<br>
+					<input type="submit" name="total" value="Estimate Total" id="btn-estimate">
+					<input type="text" id="txt-estimate" placeholder="$0.00">
+				</div>
+				<div id="results"></div>
+			</div>
+
+		</div><!--row-->
+
+
+		<button type="submit" name="checkout" id="check" size="3"><a href="https://www.paypal.com/signin?country.x=US&locale.x=en_US">Checkout</a></button>
+
+	</div><!--summary-->
+
+	<!--smaller-->
+
+	<div class="shop">
+			<img src="images/NatureScents_lemon.png" class="freshner_sm" width="300" height="300" />
+				
+				<div class="d_freshner_sm">
+					<h2>Air Freshner</h2>
+					<div class="info">
+						Price: $6.50
+					</div>
+					<div class="order">
+						<label for="txt-sm-freshner">Quantity desired:</label>
+						<input type="number" min="0" id="txt-sm-freshner" size="1" placeholder="0">
+					</div>
+				</div>
+			
+			<img src="images/ocean_beads.png" class="beads_sm" width="250" height="300" />
+		
+				<div class="d_beads_sm">
+					<h2>Bath Beads</h2>
+					<div class="info">
+						Price: $2.75/pack
+					</div>
+					<div class="order">
+						<label for="txt-sm-beads">Quantity desired:</label>
+						<input type="number" min="0" id="txt-sm-beads" size="1" placeholder="0">
+					</div>
+				</div>
+			
+			<img src="images/natural_energy_lemonade.png" class="energy_sm" width="232" height="300" />
+				
+				<div class="d_energy_sm">
+					<h2>Energy Powder</h2>
+					<div class="info">
+						Price: $1/packet
+					</div>
+					<div class="order">
+						<label for="txt-sm-energy">Quantity desired:</label>
+						<input type="number" min="0" id="txt-sm-energy" size="1" placeholder="0">
+					</div>
+				</div>
+			
+			<img src="images/incense.png" class="incense_sm" width="350" height="200" />
+				
+				<div class="d_incense_sm">
+					<h2>Incense</h2>
+					<div class="info">
+						Price: $3.50/pack
+					</div>
+					<div class="order">
+						<label for="txt-sm-incense">Quantity desired:</label>
+						<input type="number" min="0" id="txt-sm-incense" size="1" placeholder="0">
+					</div>
+				</div>
+			
+			<img src="images/epsom_salt.png" class="salt_sm" width="300" height="235" />
+				
+				<div class="d_salt_sm">
+					<h2>Epsom Salt</h2>
+					<div class="info">
+						Price: $1/12oz.
+					</div>
+					<div class="order">
+						<label for="txt-sm-salt">Quantity desired:</label>
+						<input type="number" min="0" id="txt-sm-salt" size="1" placeholder="0">
+					</div>
+				</div>
+			
+			<img src="images/now-diffuser.png" class="diffuser_sm" width="140" height="223" />
+				
+				<div class="d_diffuser_sm">
+					<h2>Oil Diffuser</h2>
+					<div class="info">
+						Price: $21 (Wooden: $26)
+					</div>
+					<div class="order">
+						<label for="txt-sm-diffuser">Quantity desired:</label>
+						<input type="number" min="0" id="txt-sm-diffuser" size="1" placeholder="0">
+						&nbsp;
+						<label for="txt-sm-wooden">Wooden:</label>
+						<input type="number" min="0" id="txt-sm-wooden" size="1" placeholder="0">
+					</div>
+				</div>
+			
+		</div><!--shop-->
+
+	<div id="est_order">
+		<hr>
+		<h1>Estimate Order</h1>
+			<div class="S-State">
+				<label>State (required)</label>
+				<select id="state-s" required>
+					<option value="">-select-</option>
+					<option value="NY">New York</option>
+					<option value="NJ">New Jersey</option>
+					<option value="CT">Connecticut</option>
+					<option value="PA">Pennsylvania</option>
+				</select>
+			</div>
+
+			<div class="shipping">
+				<label for="m-method-pickup">Shipping and Handling:</label>	
+				<form id="shipping">
+					<input type="radio" value="pickup" name="m_method" checked> Pickup (free)<br>
+					<input type="radio" value="ups" name="m_method"> US Mail ($2/item)<br>
+					<input type="radio" value="usps" name="m_method"> USPS ($3/item)
+				</form> 
+			</div>
+
+			<div class="special">
+				<label for="special-gift">Special:</label>
+				<br>
+				<input type="checkbox" value="gift" name="special-gift" id="special-gift">
+				<label for="special-gift">This is a gift (include a card)</label>
+				<br>
+				<input type="checkbox" value="gift" name="special-gift" id="mailing-list">
+				<label for="special-gift">Sign up for the CureOil mailing list</label>
+				<br>
+				<input type="checkbox" value="gift" name="special-gift" id="recipies">
+				<label for="special-gift">Include CureOil recipies (free!)</label>
+			</div>
+
+			<div class="sm_notes">
+				<label for="notes">Do you like our services? Comment below.</label>
+				<br>
+				<textarea name="txt-notes" id="txt-notes" rows="2" placeholder="This does not affect any estimate"></textarea>
+			</div>
+
+			<div class="sm_total">
+				<label for="total">Click for estimate (tax included):</label>
+				<br>
+				<input type="submit" name="total" value="Estimate Total" id="btn-estimates">
+				<input type="text" id="txt-estimates" placeholder="$0.00">
+			</div>
+
+			<div id="est_results"></div>
+
+			<button type="submit" name="checkout" id="check" size="3"><a href="https://www.paypal.com/signin?country.x=US&locale.x=en_US">Checkout</a></button>
+		</div><!--est_order-->
+
+	<footer>
+		<b><a href="Careers.html">Careers</a></b>
+		&emsp;&emsp;&emsp;&ensp;
+		<b><a href="Cards.html">Gift/Credit Cards</a></b>
+		&emsp;&emsp;&emsp;&ensp;
+		<b><a href="location.html">Store Locator</a></b>
+		&emsp;&emsp;&emsp;&ensp;
+		<a href="https://www.facebook.com">
+		<img src="images/facebook.gif" width="33" height="33" class="fb">
+		</a>
+		&emsp;&emsp;&emsp;
+		<a href="https://www.twitter.com">
+		<img src="images/twitter_08.gif" width="38" height="35" class="twitter">
+		</a>
+		&emsp;&emsp;&emsp;
+		<a href="https://www.instagram.com">
+		<img src="images/instagram_10.gif" width="33" height="33" class="instagram">
+		</a>
+	</footer>
+
+</div><!--container-->
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/mobile.js"></script>
+<script type="text/javascript" src="js/extra_estimate.js"></script>
+<script type="text/javascript" src="js/sm_extra_estimate.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,356 @@
+body {
+	font-family: Optima;
+	margin: 0px;
+}
+
+.container {
+	width: 1280px !important;
+	height: 700px !important;
+	font-family: Optima;
+	padding: 0px !important;
+}
+
+.col-lg-12 {
+	position: relative;
+	bottom: 0px !important;
+	padding: 0px !important;
+}
+
+.row {
+	width: 100%;
+}
+
+header {
+    position: relative;
+	bottom: 155px !important;
+	padding-left: 50px;
+}
+
+h1 {
+	font-size: 5.5rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px !important;
+    margin-top: 15px !important;
+    color: #b6ef89 !important;
+    text-shadow: 2px 3px 2px #000;
+}
+
+
+.h_bkgrd {
+    width: 100%;
+    height: auto;
+}
+
+.col-lg-12 {
+	height: 240px;
+}
+
+nav {
+	font-size: 16pt;
+	text-align: center;
+	background-color: #f8eca4;
+	margin: 0;
+	position: relative;
+    bottom: 16px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #687d56;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #f38e30;
+}
+
+hr {
+	background-color: #808080 !important;
+}
+
+.row {
+	position: relative;
+	top: 45px;
+}
+
+form { 
+	position: relative;
+	text-align: center;
+	height: 430px;
+	left: 200px;
+}
+
+input {
+	font-size: 20px !important;
+	position: relative;
+    top: 90px;
+}
+
+#address {
+	width: 83%;
+}
+
+.bkgrd {
+	position: relative;
+	width: 100%;
+	bottom: 242px;
+	z-index: -1;
+}
+
+.positions {
+	position: relative;
+	top: 18px;
+}
+
+h4 {
+	position: relative;
+	left: 130px;
+	text-align: center;
+	font-size: 27pt !important;
+	margin-bottom: 20px !important;
+}
+
+h5 {
+	position: relative;
+	left: 130px;
+	text-align: center;
+	font-size: 21pt !important;
+}
+
+footer {
+	background-color: #95a489;
+	top: 196px;
+	bottom: 31px;
+	font-size: 14pt;
+	text-align: center;
+	height: 55px;
+	position: relative;
+	font-family: Optima;
+}
+
+footer a {
+	position: relative;
+	top: 12px;
+	color: rgba(244, 224, 104, 1);
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: rgb(249, 180, 115);
+}
+
+.fb {
+	position: relative;
+	top: -3px;
+}
+
+.twitter {
+	position: relative;
+	top: -4px;
+}
+
+.instagram {
+	position: relative;
+	top: -3px;
+}
+
+	.h_bkgrd_sm {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.hamburger {
+		display: none;
+	}
+
+	.cross {
+		display: none;
+	}
+
+	input#address_sm {
+		display: block;
+	}
+
+@media (max-width: 777px) {
+	footer {
+		font-size: 9pt;
+		top: 270px;
+		width: 100%;
+		left: 0px;
+	}
+
+	.row {
+		position: relative;
+		top: 78px;
+	}
+
+	h4 {
+		font-size: 18pt !important;
+		left: 100px;
+	}
+
+	h5 {
+		font-size: 12pt !important;
+		left: 100px;
+	}
+
+	nav {
+		font-size: 12pt;
+	}
+
+	form {
+		top: 27px;
+		left: 25px;
+	}
+
+	input {
+		font-size: 17pt;
+	}
+
+	input#address_sm {
+		display: none;
+	}
+
+	input#address {
+		width: 85%;
+	}
+
+	.h_bkgrd_sm {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.hamburger {
+		display: none;
+	}
+
+	.cross {
+		display: none;
+	}
+}
+
+@media (max-width: 575px) {
+	.container {
+		max-width: 575px;
+	}
+
+	.positions {
+		top: 16px;
+	}
+
+	.positions {
+		z-index: -1;
+	}
+
+	.menu {
+		z-index: 1;
+	}
+
+	form {
+		top: -27px;
+		left: 55px;
+		font-size: 17pt;
+	}
+
+	input {
+		font-size: 11pt !important;
+	}
+
+	#address {
+		width: 100% !important;
+	}
+
+	.h_bkgrd_sm {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.h_bkgrd {
+		display: none;
+	}
+
+	nav {
+		width: 100%;
+		height: auto;
+	}
+
+	nav a {
+		display: none;
+	}
+
+	.hamburger {
+	  background:none;
+	  position:absolute;
+	  top:0;
+	  right:0;
+	  line-height:45px;
+	  padding:5px 15px 0px 15px;
+	  color:#999;
+	  border:0;
+	  font-size:1.4em;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index: 1;
+	  display: block;
+	}
+
+	.cross {
+	  background:none;
+	  position:absolute;
+	  top:0px;
+	  right:0;
+	  padding:7px 15px 0px 15px;
+	  color:#999;
+	  border:0;
+	  font-size:3em;
+	  line-height:65px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index: 1;
+	  display: block;
+	}
+
+	.menu {
+		height: 240px;
+		background-color: #f8eca4;
+	}
+
+	.menu a {
+		display: block;
+		line-height: 45px;
+		font-size: 14pt;
+		margin-right: 0px;
+	}
+
+	.row {
+		z-index: -1;
+		width: 100%;
+		position: relative;
+		top: 100px !important;
+	}
+
+	h4 {
+		font-size: 18pt !important;
+		left: 80px;
+	}
+
+	h5 {
+		font-size: 12pt !important;
+		left: 80px;
+	}
+
+	footer {
+		position: relative;
+		top: 296px !important;
+		left: 0px !important;
+	}
+}
