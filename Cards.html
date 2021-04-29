@@ -47,14 +47,15 @@
 					<h3><b>Gift Cards</b></h3>
 					<img src="images/red_giftCard.png" width="409" height="220" />
 					<br>
-					<br><label>Amount:</label>&ensp;<input type="value" name="amount" size="8" placeholder="$0.00" />
+					<br><label>Amount: </label>&ensp;
+					<span style="font-size: 1.5em;">$</span><input id="redCard" type="number" name="amount" size="8" placeholder="0.00" />
 				</div>
 
-				<div class="col-lg-6 col-xs-12">
-					
+				<div class="col-lg-6 col-xs-12">		
 					<img src="images/gift_card.png" width="409" height="220" />
 					<br>
-					<br><label>Amount:</label>&ensp;<input type="value" name="amount" size="8" placeholder="$0.00" />
+					<br><label>Amount: </label>&ensp;
+					<span style="font-size: 1.5em;">$</span><input id="giftCard" type="number" name="amount" size="8" placeholder="0.00" />
 				</div>
 			
 
@@ -62,24 +63,24 @@
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<h3><b>Credit Cards</b></h3>
 					<img src="images/credit_card.png" width="409" height="220" />
-					<br>
-					<br><label>Amount:</label>&ensp;<input type="value" name="amount" size="8" placeholder="$0.00" />
 				</div>
 
-				<div class="col-lg-6 col-xs-12">
-					
-					<img src="images/gold_card.png" width="409" height="220" />
-					<br>
-					<br>
-					<label>Amount:</label>&ensp;<input type="value" name="amount" size="8" placeholder="$0.00" />
-					
+				<div class="col-lg-6 col-xs-12">					
+					<img src="images/gold_card.png" width="409" height="220" />					
 				</div>
 			</div>
 
-		</div>		
+		</div>
+		<br><br><br>
+		<div class="card_total">
+			<input type="submit" name="total" value="Gift Card Total" id="btn-estimates">
+			<input type="text" id="txt-estimates" placeholder="$0.00">
+		</div>
+
+		<div id="est_results"></div>
 
 		
-			<button type="submit" name="checkout" id="check" size="3"><a href="https://www.paypal.com/signin?country.x=US&locale.x=en_US">Checkout</a></button>
+		<button type="submit" name="checkout" id="check" size="3"><a href="https://www.paypal.com/signin?country.x=US&locale.x=en_US">Checkout</a></button>
 		
 
 		<footer>
@@ -89,19 +90,23 @@
 			&emsp;&emsp;&emsp;&ensp;
 			<b><a href="location.html">Store Locator</a></b>
 			&emsp;&emsp;&emsp;&ensp;
-			<a href="https://www.facebook.com">
+
+
+			<a href="https://www.facebook.com" target="_blank">
 			<img src="images/facebook.gif" width="33" height="33" class="fb">
 			</a>
 			&emsp;&emsp;&emsp;
-			<a href="https://www.twitter.com">
+			<a href="https://www.twitter.com" target="_blank">
 			<img src="images/twitter_08.gif" width="38" height="35" class="twitter">
 			</a>
 			&emsp;&emsp;&emsp;
-			<a href="https://www.instagram.com">
+			<a href="https://www.instagram.com" target="_blank">
 			<img src="images/instagram_10.gif" width="33" height="33" class="instagram">
 			</a>
 		</footer>
 
 	</div>
+
+	<script type="text/javascript" src="js/gift_cards.js"></script>
 </body>
 </html>
