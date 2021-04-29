@@ -159,6 +159,28 @@ footer a:hover {
 	top: -3px;
 }
 
+.card_total {
+	display: flex;
+    justify-content: center;
+	/* margin-top: 2%; */
+}
+
+#redCard, #giftCard {
+	width: 15%;
+}
+
+#btn-estimates {
+	font-family: Optima;
+	font-size: 1.5rem;
+	width: 20%;
+	margin-right: 2%;
+}
+
+#txt-estimates {
+	font-size: 1.5rem;
+	width: 20%;
+}
+
 
 	.hamburger {
 		display: none;
@@ -213,6 +235,15 @@ footer a:hover {
 
 	.menu {
 		display: none;
+	}
+
+	.card_total {
+		margin-left: 111px;
+		display: block;
+	}
+
+	#btn-estimates, #txt-estimates {
+		font-size: 2vw;
 	}
 }
 
@@ -312,6 +343,15 @@ footer a:hover {
 
 	#check {
 		left: 83px;
+	}
+
+	.card_total {
+		margin-left: 81px;
+	}
+
+	#btn-estimates, #txt-estimates {
+		font-size: 3vw;
+		width: 30%;
 	}
 
 	.hamburger {
